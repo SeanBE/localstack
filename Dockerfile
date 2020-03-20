@@ -73,5 +73,5 @@ RUN mkdir -p /.npm && \
     ln -s `pwd` /tmp/localstack_install_dir
 
 # run tests (to verify the build before pushing the image)
-ADD tests/ tests/
-RUN LAMBDA_EXECUTOR=local make test
+#ADD tests/ tests/
+#RUN LAMBDA_EXECUTOR=local make test
